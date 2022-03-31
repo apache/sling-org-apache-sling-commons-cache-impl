@@ -22,13 +22,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.apache.sling</groupId>
-        <artifactId>sling-bundle-parent</artifactId>
+        <artifactId>sling</artifactId>
         <version>47</version>
         <relativePath />
     </parent>
 
     <artifactId>org.apache.sling.commons.cache.impl</artifactId>
     <version>0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <name>Apache Sling Cache API Implementation support library</name>
     <description>
@@ -38,7 +39,6 @@
     <properties>
         <sling.java.version>8</sling.java.version>
         <project.build.outputTimestamp>1</project.build.outputTimestamp>
-        <bnd.baseline.skip>true</bnd.baseline.skip>
     </properties>
 
     <scm>
