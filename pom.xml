@@ -23,8 +23,8 @@
     <parent>
         <groupId>org.apache.sling</groupId>
         <artifactId>sling</artifactId>
-        <version>16</version>
-        <relativePath/>
+        <version>47</version>
+        <relativePath />
     </parent>
 
     <artifactId>org.apache.sling.commons.cache.impl</artifactId>
@@ -36,12 +36,17 @@
         This bundle provides an implementation support for Cache implementations. It is a utility jar that should be embedded.
     </description>
 
+    <properties>
+        <sling.java.version>8</sling.java.version>
+        <project.build.outputTimestamp>1</project.build.outputTimestamp>
+    </properties>
+
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-cache-impl.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-cache-impl.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=sling-org-apache-sling-commons-cache-impl.git</url>
+        <tag>HEAD</tag>
     </scm>
-    
 
     <dependencies>
         <dependency>
